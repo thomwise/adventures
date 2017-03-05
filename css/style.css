@@ -1,3 +1,50 @@
+/*========UNIVERSALS========*/
+@import url('https://fonts.googleapis.com/css?family=Satisfy');
+
+.bkgd-brown {
+  background-color: #7a2d2d;
+}
+
+.footer {
+  background-color: #7a2d2d;
+  height: 100px;
+}
+
+.text-shadow {
+  text-shadow: 3px 3px 7px #000;
+}
+
+.white-text {
+  color: #fff;
+}
+
+.satisfy {
+  font-family: satisfy;
+}
+
+.medium {
+  font-size: 30px;
+}
+
+.well {
+  background-color: rgba(255, 255, 255, 0.5);
+  box-shadow: 3px 3px 5px #000;
+}
+
+.transluscent {
+  background-color: rgba(255, 255, 255, 0.7  );
+  border-radius: 3px;
+}
+/*=========NAVIGATION BAR=========*/
 #navbar {
   margin-top:20px;
+}
+
+/*============CAROUSEL=============*/
+
+
+/*==========FOOTER==========*/
+.fa {
+  padding: 20px;
+  color: #fff;
 }
