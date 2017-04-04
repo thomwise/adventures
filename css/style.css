@@ -1,5 +1,9 @@
 /*========UNIVERSALS========*/
-@import url('https://fonts.googleapis.com/css?family=Satisfy');
+@import url('https://fonts.googleapis.com/css?family=Catamaran|Nunito|Satisfy');
+
+h1{
+  font-family: catamaran;
+}
 
 .bkgd-brown {
   background-color: #7a2d2d;
@@ -40,12 +44,33 @@ img {
   border-radius: 3px;
 }
 /*=========NAVIGATION BAR=========*/
-#navbar {
-  margin-top:20px;
+.navbar-inverse {
+  border: none;
+  background: rgba(0, 0, 0, .2);
+}
+
+.active:active, .active:focus, .active:hover, .active:visited {
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 /*============CAROUSEL=============*/
+.item {
+  height: 450px;
+  background-position: center;
+  background-size: cover;
+}
 
+#cross {
+  background-image: url('../media/cross.jpg');
+}
+
+#flower {
+  background-image: url('../media/flower.jpg');
+}
+
+#hands {
+  background-image: url('../media/hands.jpg');
+}
 
 /*==========FOOTER==========*/
 .fa {
