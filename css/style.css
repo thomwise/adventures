@@ -30,6 +30,10 @@ h1{
   font-size: 30px;
 }
 
+.top-space-big {
+  margin-top: 60px;
+}
+
 .top-space {
   margin-top: 30px;
 }
@@ -54,7 +58,7 @@ img {
 /*=========NAVIGATION BAR=========*/
 .navbar-inverse {
   border: none;
-  background: rgba(0, 0, 0, .2);
+  background: rgba(0, 0, 0, .5);
 }
 
 .active:active, .active:focus, .active:hover, .active:visited {
@@ -87,7 +91,7 @@ img {
 }
 
 @media {
-  
+
 }
 /*==========FOOTER==========*/
 .fa {
