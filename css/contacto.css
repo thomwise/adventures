@@ -1,0 +1,14 @@
+/* Required Fields */
+label[for="name"]:after {
+  content: " *";
+  color: #B81727;
+}
+
+label[for="email"]:after {
+  content: " *";
+  color: #B81727;
+}
+
+.danger {
+  border-color: #B81727;
+}
