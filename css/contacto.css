@@ -12,3 +12,7 @@ label[for="email"]:after {
 .danger {
   border-color: #B81727;
 }
+
+.fuentetop {
+  background-image: url('../media/fuentetop.jpg');
+}
