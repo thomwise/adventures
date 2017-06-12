@@ -27,7 +27,7 @@ h1{
 }
 
 .medium {
-  font-size: 30px;
+  font-size: 26px;
 }
 
 .top-space-big {
@@ -71,10 +71,6 @@ img {
 
 .active:active, .active:focus, .active:hover, .active:visited {
   background-color: rgba(0, 0, 0, 0.5);
-}
-
-@media {min 365px
-
 }
 
 /*============CAROUSEL=============*/
