@@ -27,7 +27,7 @@ h1{
 }
 
 .medium {
-  font-size: 30px;
+  font-size: 32px;
 }
 
 .top-space-big {
@@ -63,6 +63,7 @@ img {
   background-color: rgba(255, 255, 255, 0.7  );
   border-radius: 3px;
 }
+
 /*=========NAVIGATION BAR=========*/
 .navbar-inverse {
   border: none;
@@ -71,6 +72,12 @@ img {
 
 .active:active, .active:focus, .active:hover, .active:visited {
   background-color: rgba(0, 0, 0, 0.5);
+}
+
+@media (max-width: 382px) {
+  #name {
+    font-size: 26px;
+  }
 }
 
 /*============CAROUSEL=============*/
