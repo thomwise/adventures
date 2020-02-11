@@ -80,16 +80,20 @@ img {
   background-size: cover;
 }
 
-#fountain {
-  background-image: url('../media/fountain.jpg');
+#first {
+  background-image: url('../media/first_hike.jpg');
 }
 
-#flower {
-  background-image: url('../media/flower.jpg');
+#engagement {
+  background-image: url('../media/masterminds.jpg');
 }
 
-#hands {
-  background-image: url('../media/hands.jpg');
+#wedding {
+  background-image: url('../media/wedding.jpg');
+}
+
+#travels {
+  background-image: url('../media/waterton.jpg');
 }
 
 /*==========WELCOME==========*/
