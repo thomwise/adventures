@@ -5,13 +5,13 @@ h1{
   font-family: catamaran;
 }
 
-.bkgd-brown {
-  background-color: #7a2d2d;
+.row {
+  margin: 0;
 }
 
-.footer {
-  background-color: #7a2d2d;
-  height: 100px;
+footer {
+  height: 20vh;
+  background: rgba(0, 0, 0, .5);
 }
 
 .text-shadow {
@@ -47,7 +47,11 @@ h1{
 }
 
 .no-pad {
-  padding: none;
+  padding: 0;
+}
+
+.no-margin {
+  margin: 0;
 }
 
 .well {
@@ -65,19 +69,84 @@ img {
 }
 
 /*=========NAVIGATION BAR=========*/
-.navbar-inverse {
+.navbar-dark {
   border: none;
   background: rgba(0, 0, 0, .5);
+}
+
+.navbar {
+  margin: 0;
+  border-radius: 0;
+}
+
+@media (min-width: 768px) {
+  .navbar .navbar-toggler {
+    visibility: hidden;
+  }
 }
 
 .active:active, .active:focus, .active:hover, .active:visited {
   background-color: rgba(0, 0, 0, 0.5);
 }
 
-@media (max-width: 382px) {
+@media (max-width: 421px) {
   #name {
     font-size: 26px;
   }
+}
+
+.navbar-toggler {
+  border: 1px solid white;
+  background-color: transparent;
+  margin: 5px;
+  width: 40px;
+  height: 40px;
+  position: relative;
+  border-radius: 10%;
+  float: inline-end;
+  padding-right: 25px;
+}
+
+.navbar-toggler:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.hamburger-icon {
+  background-color: white;
+  content: "";
+  position: absolute;
+  top: 47%;
+  left: 9%;
+  width: 80%;
+  height: 3px;
+}
+
+.hamburger-icon:before {
+  background-color: white;
+  content: "";
+  position: absolute;
+  top: 9px;
+  left: 0px;
+  width: 100%;
+  height: 3px;
+}
+.hamburger-icon:after {
+  background-color: white;
+  content: "";
+  position: absolute;
+  top: -9px;
+  left: 0px;
+  width: 100%;
+  height: 3px;
+}
+
+.nav li a {
+  padding: 15px 10px;
+  color: #fff;
+}
+
+.nav li a:hover {
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 /*============CAROUSEL=============*/
@@ -91,8 +160,20 @@ img {
   background-image: url('../media/first_hike.jpg');
 }
 
+@media only screen and (max-width: 768px) {
+  #first {
+    background-position: 90% 50%;
+  }
+}
+
 #engagement {
   background-image: url('../media/masterminds.jpg');
+}
+
+@media only screen and (max-width: 768px) {
+  #engagement {
+    background-position: 60% 100%;
+  }
 }
 
 #wedding {
@@ -101,6 +182,12 @@ img {
 
 #travels {
   background-image: url('../media/waterton.jpg');
+}
+
+@media only screen and (max-width: 768px) {
+  #travels {
+    background-position: 24% 50%;
+  }
 }
 
 /*==========WELCOME==========*/
