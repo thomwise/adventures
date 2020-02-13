@@ -15,13 +15,13 @@
 }
 
 .one {
-    background-image: url(media/kennys.jpg);
+    background-image: url(/media/kennys.jpg);
     background-position: 50% 30%;
     background-size: cover;
 }
 
 .two {
-    background-image: url(media/wises.jpg);
+    background-image: url(/media/wises.jpg);
     background-position: 50% 25%;
     background-size: cover;
 }
@@ -46,7 +46,7 @@
     
 .div1 { 
     grid-area: 1 / 1 / 3 / 2;
-    background-image: url(media/wedding.jpg);
+    background-image: url(/media/wedding.jpg);
     background-position: center;
 }
 .div2 { 
