@@ -81,10 +81,13 @@ a:hover {
 }
 
 /*=========NAVIGATION BAR=========*/
-
+.navbar {
+  padding: 0 1rem 0 1rem;
+  background-color: rgba(0, 0, 0, 0.5);
+}
 
 #name:hover {
-  color: rgba(0, 0, 0, 0.5);;
+  color: rgba(0, 0, 0, 0.5);
 }
 
 @media (max-width: 421px) {
@@ -97,26 +100,54 @@ a:hover {
   background-color: rgba(0, 0, 0, 0.5);
 }
 
-.nav li a {
+/* .nav li a {
   padding: 15px 10px;
   color: #fff;
-}
+} */
 
-.nav li a:hover {
+/* .nav li a:hover {
   background-color: rgba(0, 0, 0, 0.5);
-}
+} */
 
 /*============CAROUSEL=============*/
+.first_hike {
+  background-image: url(/media/first_hike.jpg);
+  background-position: 100% 50%;
+  background-size: cover;
+  height: 60vh;
+  width: 100%;
+  position: absolute;
+}
+
+.engagement {
+  background-image: url(/media/masterminds.jpg);
+  background-position: 50% 0%;
+  background-size: cover;
+  height: 60vh;
+  width: 100%;
+  position: absolute;
+}
+
+.wedding {
+  background-image: url(/media/wedding.jpg);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 60vh;
+  width: 100%;
+  position: absolute;
+}
+
+.travels {
+  background-image: url(/media/waterton.jpg);
+  background-position: 0% 50%;
+  background-size: cover;
+  height: 60vh;
+  width: 100%;
+  position: absolute;
+}
+
 .carousel-inner .carousel-item {
   transition: -webkit-transform 2s ease;
   transition: transform 2s ease;
+  height: 60vh;
 }
-
-.carousel-inner>.carousel-item>img, .carousel-inner>.item>a>img {
-  display: block;
-  height: auto;
-  max-width: 100%;
-  line-height: 1;
-  margin:auto;
-  width: 100%;
-  }
