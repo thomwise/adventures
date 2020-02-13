@@ -107,7 +107,7 @@ a:hover {
 
 /*============CAROUSEL=============*/
 .first_hike {
-  background-image: url(/media/first_hike.jpg);
+  background-image: url(media/first_hike.jpg);
   background-position: 100% 50%;
   background-size: cover;
   height: 60vh;
@@ -116,7 +116,7 @@ a:hover {
 }
 
 .engagement {
-  background-image: url(/media/masterminds.jpg);
+  background-image: url(media/masterminds.jpg);
   background-position: 50% 0%;
   background-size: cover;
   height: 60vh;
@@ -125,7 +125,7 @@ a:hover {
 }
 
 .wedding {
-  background-image: url(/media/wedding.jpg);
+  background-image: url(media/wedding.jpg);
   background-position: 50% 50%;
   background-size: cover;
   height: 60vh;
@@ -134,7 +134,7 @@ a:hover {
 }
 
 .travels {
-  background-image: url(/media/waterton.jpg);
+  background-image: url(media/waterton.jpg);
   background-position: 0% 50%;
   background-size: cover;
   height: 60vh;
