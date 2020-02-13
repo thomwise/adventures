@@ -1,17 +1,22 @@
 /*========UNIVERSALS========*/
 @import url('https://fonts.googleapis.com/css?family=Catamaran|Nunito|Satisfy');
 
-h1{
+h1, h2, h4 {
   font-family: catamaran;
 }
 
-.bkgd-brown {
-  background-color: #7a2d2d;
+.main {
+  background-color: #d2d0dd;
 }
 
-.footer {
-  background-color: #7a2d2d;
-  height: 100px;
+.row {
+  margin: 0;
+}
+
+footer {
+  padding-top: 2rem;
+  height: 20vh;
+  background: rgba(0, 0, 0, .5);
 }
 
 .text-shadow {
@@ -42,17 +47,24 @@ h1{
   margin-bottom: 30px;
 }
 
+.bottom-pad {
+  padding-bottom: 50px;
+}
+
 .top-pad {
   padding-top: 40px;
 }
 
 .no-pad {
-  padding: none;
+  padding: 0;
 }
 
-.well {
-  background-color: rgba(255, 255, 255, 0.5);
-  box-shadow: 3px 3px 5px #000;
+.pad {
+  padding: 20px;
+}
+
+.no-margin {
+  margin: 0;
 }
 
 img {
@@ -60,57 +72,82 @@ img {
 }
 
 .transluscent {
-  background-color: rgba(255, 255, 255, 0.7  );
+  background-color: rgba(255, 255, 255, 0.7);
   border-radius: 3px;
 }
 
-/*=========NAVIGATION BAR=========*/
-.navbar-inverse {
-  border: none;
-  background: rgba(0, 0, 0, .5);
+a:hover {
+  text-decoration: none;
 }
 
-.active:active, .active:focus, .active:hover, .active:visited {
+/*=========NAVIGATION BAR=========*/
+.navbar {
+  padding: 0 1rem 0 1rem;
   background-color: rgba(0, 0, 0, 0.5);
 }
 
-@media (max-width: 382px) {
+#name:hover {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+@media (max-width: 421px) {
   #name {
     font-size: 26px;
   }
 }
 
-/*============CAROUSEL=============*/
-.item {
-  height: 450px;
-  background-position: center;
-  background-size: cover;
+.navbar-toggler:hover {
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
-#first {
-  background-image: url('../media/first_hike.jpg');
-}
-
-#engagement {
-  background-image: url('../media/masterminds.jpg');
-}
-
-#wedding {
-  background-image: url('../media/wedding.jpg');
-}
-
-#travels {
-  background-image: url('../media/waterton.jpg');
-}
-
-/*==========WELCOME==========*/
-.bienvenidos {
-  height: 550px;
-  background-color: #fff;
-}
-
-/*==========FOOTER==========*/
-.fa {
-  padding: 20px;
+/* .nav li a {
+  padding: 15px 10px;
   color: #fff;
+} */
+
+/* .nav li a:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+} */
+
+/*============CAROUSEL=============*/
+.first_hike {
+  background-image: url(/media/first_hike.jpg);
+  background-position: 100% 50%;
+  background-size: cover;
+  height: 60vh;
+  width: 100%;
+  position: absolute;
+}
+
+.engagement {
+  background-image: url(/media/masterminds.jpg);
+  background-position: 50% 0%;
+  background-size: cover;
+  height: 60vh;
+  width: 100%;
+  position: absolute;
+}
+
+.wedding {
+  background-image: url(/media/wedding.jpg);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 60vh;
+  width: 100%;
+  position: absolute;
+}
+
+.travels {
+  background-image: url(/media/waterton.jpg);
+  background-position: 0% 50%;
+  background-size: cover;
+  height: 60vh;
+  width: 100%;
+  position: absolute;
+}
+
+.carousel-inner .carousel-item {
+  transition: -webkit-transform 2s ease;
+  transition: transform 2s ease;
+  height: 60vh;
 }
