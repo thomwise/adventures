@@ -15,7 +15,7 @@ h1, h2, h4 {
 
 footer {
   padding-top: 2rem;
-  height: 20vh;
+  height: 100%;
   background: rgba(0, 0, 0, .5);
 }
 
@@ -78,6 +78,10 @@ img {
 
 a:hover {
   text-decoration: none;
+}
+
+p {
+  margin: none;
 }
 
 /*=========NAVIGATION BAR=========*/

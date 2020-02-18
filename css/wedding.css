@@ -7,13 +7,6 @@
     grid-gap: 10px;
 }
 
-@media only screen and (max-width: 1150px) {
-    .family {
-        grid-template-columns: 1fr;
-        grid-template-rows: repeat(2, 1fr);
-    }
-}
-
 .one {
     background-image: url("https://thomwise.github.io/adventures/media/kennys.jpg");
     background-position: 50% 30%;
@@ -28,7 +21,7 @@
 
 .parent {
     padding: 10px;
-    height: 80vh;
+    height: 100vh;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(3, 1fr);
@@ -36,49 +29,169 @@
     grid-row-gap: 10px;
 }
 
-@media only screen and (max-width: 1150px) {
-    .parent {
-        height: 100vh;
-        grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: repeat(5, 1fr);
-    }
-}
-    
 .div1 { 
-    grid-area: 1 / 1 / 3 / 2;
-    background-image: url("https://thomwise.github.io/adventures/media/wedding.jpg");
-    background-position: center;
-}
-.div2 { 
-    grid-area: 1 / 2 / 2 / 4; 
-    background-color: orangered;
-}
-.div3 { 
-    grid-area: 2 / 2 / 3 / 3; 
-    background-color: greenyellow;
-}
-.div4 { 
-    grid-area: 2 / 3 / 4 / 4;
-    background-color: chocolate;
-}
-.div5 { 
-    grid-area: 3 / 1 / 4 / 3;
-    background-color: blue; 
-}
-.div6 { 
-    grid-area: 2 / 4 / 4 / 5;
-    background-color: powderblue; 
-}
-.div7 { 
-    grid-area: 1 / 5 / 3 / 6; 
-    background-color: wheat;
-}
-.div8 { 
-    grid-area: 1 / 4 / 2 / 5; 
-    background-color: goldenrod;
-}
-.div9 { 
-    grid-area: 3 / 5 / 4 / 6; 
-    background-color: tomato;
-}
+        grid-area: 1 / 1 / 3 / 2;
+        background-image: url("https://thomwise.github.io/adventures/media/wedding.jpg");
+        background-position: center;
+    }
+    .div2 { 
+        grid-area: 1 / 2 / 2 / 4; 
+        background-color: orangered;
+    }
+    .div3 { 
+        grid-area: 2 / 2 / 3 / 3; 
+        background-color: greenyellow;
+    }
+    .div4 { 
+        grid-area: 2 / 3 / 4 / 4;
+        background-color: chocolate;
+    }
+    .div5 { 
+        grid-area: 3 / 1 / 4 / 3;
+        background-color: blue; 
+    }
+    .div6 { 
+        grid-area: 1 / 4 / 3 / 5;
+        background-color: powderblue; 
+    }
+    .div7 { 
+        grid-area: 3 / 4 / 4 / 5; 
+        background-color: wheat;
+    }
+    .div8 { 
+        grid-area: 1 / 5 / 2 / 6; 
+        background-color: goldenrod;
+    }
+    .div9 { 
+        grid-area: 2 / 5 / 4 / 6; 
+        background-color: tomato;
+    }
+
+@media only screen and (max-width: 1200px) {
+  .family {
+    padding: 0 10px 0 10px;
+    height: 60vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 10px;
+  }
     
+  .parent {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    height: 140vh;
+  }
+  
+  .div3 {
+    grid-area: 2 / 2 / 3 / 3;
+  }
+  
+  .div4 {
+    grid-area: 2 / 3 / 5 / 4;
+  }
+  
+  .div6 {
+    grid-area: 4 / 1 / 7 / 2;
+  }
+  
+  .div7 {
+    grid-area: 4 / 2 / 5 / 3;
+  }
+  
+  .div8 {
+    grid-area: 5 / 2 / 7 / 3;
+  }
+  
+  .div9 {
+    grid-area: 5 / 3 / 7 / 4;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .parent {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(9, 1fr);
+    height: 220vh;
+  }
+  
+  .div1 {
+    grid-area: 1 / 1 / 3 / 2;
+  }
+  
+  .div3 {
+    grid-area: 1 / 2 / 3 / 3;
+  }
+  
+  .div2 {
+    grid-area: 3 / 1 / 4 / 3;
+  }
+  
+  .div4 {
+    grid-area: 4 / 1 / 6 / 2;
+  }
+  
+  .div6 {
+    grid-area: 4 / 2 / 6 / 3;
+  }
+  
+  .div5 {
+    grid-area: 6 / 1 / 7 / 3;
+  }
+  
+  .div7 {
+    grid-area: 7 / 1 / 9 / 2;
+  }
+  
+  .div8 {
+    grid-area: 7 / 2 / 9 / 3;
+  }
+  
+  .div9 {
+    grid-area: 9 / 1 / 10 / 3;
+  }
+}
+
+@media only screen and (max-width: 580px) {
+  .parent {
+    grid-template-columns: 1fr;
+    grid-auto-rows: min-max(60px, auto);
+    height: 330vh;
+  }
+  
+  .div1 {
+    grid-area: auto;
+  }
+  
+  .div3 {
+    grid-area: auto;
+  }
+  
+  .div2 {
+    grid-area: auto;
+  }
+  
+  .div4 {
+    grid-area: auto;
+  }
+  
+  .div6 {
+    grid-area: auto;
+  }
+  
+  .div5 {
+    grid-area: auto;
+  }
+  
+  .div7 {
+    grid-area: auto;
+  }
+  
+  .div8 {
+    grid-area: auto;
+  }
+  
+  .div9 {
+    grid-area: auto;
+  } 
+}
