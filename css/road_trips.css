@@ -32,6 +32,7 @@ body {
 .divt1 {
     grid-area: 1 / 1 / 2 / 2;
     background-color: tomato;
+    box-shadow: -2px 2px 6px 0px rgb(58, 58, 58);
 }
 
 .divt2 {
@@ -107,4 +108,81 @@ body {
 .divb3 {
     grid-area: 5 / 4 / 6 / 5;
     background-color: tomato;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .layout {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(10, 1fr);
+    }    
+
+
+    .divl1 {
+        grid-area: 1 / 1 / 2 / 2;
+    }
+
+    .divl2 {
+        grid-area: 1 / 2 / 2 / 3;
+    }
+
+    .divt1 {
+        grid-area: 1 / 3 / 2 / 4;
+    }
+
+    .divt2 {
+        grid-area: 2 / 1 / 3 / 2;
+    }
+
+    .divt3 {
+        grid-area: 2 / 2 / 3 / 3;
+    }
+
+    .divt4 {
+        grid-area: 2 / 3 / 3 / 4;
+    }
+
+    .divt5 {
+        grid-area: 3 / 1 / 4 / 2;
+    }
+
+    .divr1 {
+        grid-area: 3 / 2 / 4 / 3;
+    }
+
+    .divr2 {
+        grid-area: 3 / 3 / 4 / 4;
+    }
+
+    .divcenter {
+        grid-area: 4 / 1 / 7 / 4;
+    }
+
+    .divr3 {
+        grid-area: 7 / 1 / 8 / 2;
+    }
+
+    .divr4 {
+        grid-area: 7 / 2 / 8 / 3;
+    }
+
+    .divb3 {
+        grid-area: 7 / 3 / 8 / 4;
+    }
+
+    .divb2 {
+        grid-area: 8 / 1 / 9 / 2;
+    }
+
+    .divb1 {
+        grid-area: 8 / 2 / 9 / 3;
+    }
+
+    .divl4 {
+        grid-area: 8 / 3 / 9 / 4;
+    }
+
+    .divl3 {
+        grid-area: 9 / 1 / 11 / 4 
+    }
 }
