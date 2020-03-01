@@ -18,6 +18,7 @@ body {
     position: relative;
     overflow: hidden;
     grid-area: 2 / 2 / 5 / 5;
+    box-shadow: -2px 2px 6px 0px rgb(58, 58, 58);
 }
 
 .resp-iframe {
@@ -31,83 +32,102 @@ body {
 
 .divt1 {
     grid-area: 1 / 1 / 2 / 2;
-    background-color: tomato;
+    background-image: url("/media/point-reyes.jpg");
+    background-position: center;
+    background-size: cover;
     box-shadow: -2px 2px 6px 0px rgb(58, 58, 58);
 }
 
 .divt2 {
     grid-area: 1 / 2 / 2 / 3;
     background-color: tomato;
+    box-shadow: -2px 2px 6px 0px rgb(58, 58, 58);
 }
 
 .divt3 {
     grid-area: 1 / 3 / 2 / 4;
     background-color: tomato;
+    box-shadow: -2px 2px 6px 0px rgb(58, 58, 58);
 }
 
 .divt4 {
     grid-area: 1 / 4 / 2 / 5;
     background-color: tomato;
+    box-shadow: -2px 2px 6px 0px rgb(58, 58, 58);
 }
 
 .divt5 {
     grid-area: 1 / 5 / 2 / 6;
     background-color: tomato;
+    box-shadow: -2px 2px 6px 0px rgb(58, 58, 58);
 }
 
 .divl1 {
     grid-area: 2 / 1 / 3 / 2;
-    background-color: tomato;
+    background-image: url("/media/point-reyes1.jpg");
+    background-position: center;
+    background-size: cover;
+    box-shadow: -2px 2px 6px 0px rgb(58, 58, 58);
 }
 
 .divl2 {
     grid-area: 3 / 1 / 4 / 2;
     background-color: tomato;
+    box-shadow: -2px 2px 6px 0px rgb(58, 58, 58);
 }
 
 .divl3 {
     grid-area: 4 / 1 / 5 / 2;
     background-color: tomato;
+    box-shadow: -2px 2px 6px 0px rgb(58, 58, 58);
 }
 
 .divl4 {
     grid-area: 5 / 1 / 6 / 2;
     background-color: tomato;
+    box-shadow: -2px 2px 6px 0px rgb(58, 58, 58);
 }
 
 .divr1 {
     grid-area: 2 / 5 / 3 / 6;
     background-color: tomato;
+    box-shadow: -2px 2px 6px 0px rgb(58, 58, 58);
 }
 
 .divr2 {
     grid-area: 3 / 5 / 4 / 6;
     background-color: tomato;
+    box-shadow: -2px 2px 6px 0px rgb(58, 58, 58);
 }
 
 .divr3 {
     grid-area: 4 / 5 / 5 / 6;
     background-color: tomato;
+    box-shadow: -2px 2px 6px 0px rgb(58, 58, 58);
 }
 
 .divr4 {
     grid-area: 5 / 5 / 6 / 6;
     background-color: tomato;
+    box-shadow: -2px 2px 6px 0px rgb(58, 58, 58);
 }
 
 .divb1 {
     grid-area: 5 / 2 / 6 / 3;
     background-color: tomato;
+    box-shadow: -2px 2px 6px 0px rgb(58, 58, 58);
 }
 
 .divb2 {
     grid-area: 5 / 3 / 6 / 4;
     background-color: tomato;
+    box-shadow: -2px 2px 6px 0px rgb(58, 58, 58);
 }
 
 .divb3 {
     grid-area: 5 / 4 / 6 / 5;
     background-color: tomato;
+    box-shadow: -2px 2px 6px 0px rgb(58, 58, 58);
 }
 
 @media only screen and (max-width: 768px) {
